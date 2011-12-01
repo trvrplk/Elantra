@@ -8,12 +8,12 @@ Just run
 ```shell
 rake elantra:update id=foo text=bar
 ```
+note `id` should be the id of the element and `text` should be the new text. The above will work given a template with:
 
 ``` html
 <p id="foo">foo</p>
 ```
 
-except the `@foo.bar` should be the element to update.
 
 The Legal Stuff
 ---------------
