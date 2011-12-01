@@ -7,7 +7,7 @@ namespace :elantra do
 		cxt = V8::Context.new
 		cxt.eval({ 
 			$(fuction(){
-				$('.#{ENV["id"]}').text("#{ENV['text']}")		
+				$('.#{ENV["class"]}').text("#{ENV['text']}")		
 			})
 
 		 })
