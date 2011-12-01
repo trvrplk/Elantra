@@ -6,10 +6,10 @@ Gem::Specification.new do |s|
   s.name        = "elantra"
   s.version     = Elantra::VERSION
   s.authors     = ["cookiebatch"]
-  s.email       = ["TODO: Write your email address"]
+  s.email       = ["keymint1498@gmail.com"]
   s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.summary     = %q{Update Elements in Rails}
+  s.description = %q{Update elements in Rails}
 
   s.rubyforge_project = "elantra"
 
@@ -19,7 +19,8 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   # specify any dependencies here; for example:
-  s.add_development_dependency "cucumber"
+  # s.add_dependency "v8"
   # s.add_runtime_dependency "rest-client"
-  s.add_dependency "nokogiri"
+  # s.add_dependency "therubyracer"
+  s.add_development_dependency "rspec"
 end

@@ -3,10 +3,14 @@ Elantra
 
 That New Car Smell
 ------------------
-Just call
+Just run 
 
-``` erb
-<%= Elantra.updates(@foo.bar) %>
+```shell
+rake elantra:update id=foo text=bar
+```
+
+``` html
+<p id="foo">foo</p>
 ```
 
 except the `@foo.bar` should be the element to update.
